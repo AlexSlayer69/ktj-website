@@ -52,3 +52,39 @@ white-space: nowrap; */
 	display: none;
 }
 `;
+
+export const Btn1 = styled.button`
+    grid-column: 1/3;
+    justify-self: center;
+    padding: 0.5em 2.5em;
+    line-height: 2em;
+    background:linear-gradient(90deg,#26CBD6,#5552F3);
+    border-radius: 2em;
+    border:2px solid white;
+    color: white;
+    font-weight: bold;
+    transition: all 0.2s ;
+    :hover{
+        background: white;
+        border: 2px solid #5552F3;
+        color:#5552F3;
+    }
+`;
+
+export const Btn2 = styled.button`
+    grid-column: 1/3;
+    justify-self: center;
+    padding: 0.5em 2.5em;
+    line-height: 2em;
+    background-color:white;
+    border-radius: 2em;
+    border: 2px solid #5552F3;
+    color: #5552F3;
+    font-weight: bold;
+    transition: all 0.2s ;
+    :hover{
+        background:linear-gradient(90deg,#26CBD6,#5552F3);
+		border:2px solid white;
+        color: white;
+    }
+`;
